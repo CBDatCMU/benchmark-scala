@@ -20,7 +20,7 @@
 module load scala
 
 # Compile the benchmark
-scalac scala_benchmark.scala
+scalac benchmark.scala
 
 # Run the benchmark; -J-Xmx24g raises the JVM heap ceiling to 24 GB
 # to accommodate large array allocations without GC pressure
