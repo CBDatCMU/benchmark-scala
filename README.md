@@ -113,6 +113,8 @@ TOTAL                                  2.0423
 =============================================================
 ```
 
-## License
+---
+Copyright © 2026 Pittsburgh Supercomputing Center. All Rights Reserved.
 
-Copyright (c) 2026 Pittsburgh Supercomputing Center. All rights reserved.
+The [Pittsburgh Supercomputing Center](http://www.psc.edu) as consultants for the [Computational Biology Department](https://www.cmu.edu/bio/) at [Carnegie Mellon University](http://www.cmu.edu).
+
