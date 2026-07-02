@@ -40,27 +40,38 @@ scala -J-Xmx24g ScalaBenchmark <N>
 | 8 | Matrix Multiply 256×256 | Dense O(n³) compute kernel |
 | 9 | Prime Sieve | Sieve of Eratosthenes to 5,000,000 |
 
-## Sample Output
+## Results
 
 ```
 ====================================================================
               Scala HPC Benchmark v1.0.0
               Pittsburgh Supercomputing Center
 ====================================================================
-Hostname             : node001
-CPU                  : Intel(R) Xeon(R) Gold 6248R CPU @ 3.00GHz
-Memory               : 192.0 GB
-Logical CPUs         : 48
-...
+Hostname             : lanec2.compbio.cs.cmu.edu
+CPU                  : Intel(R) Xeon(R) Silver 4314 CPU @ 2.40GHz
+Memory               : 62.1 GB
+Logical CPUs         : 64
+Java                 : 17.0.19
+Scala                : 2.13.16
+OS                   : Linux
+Architecture         : amd64
+Array Size           : 10,000,000
 ====================================================================
 
 ===================== Benchmark Results =====================
-Benchmark                           Seconds
+Benchmark                             Seconds
 -------------------------------------------------------------
-Allocate Random Array                  0.4123
-Sum Array                              0.0512
-...
-TOTAL                                  5.1234
+Allocate Random Array                  0.3065
+Sum Array                              0.0692
+Map sqrt                               0.0383
+Sort Array                             1.1826
+Monte Carlo Pi                         0.5650
+STREAM Copy                            0.0564
+STREAM Triad                           0.2583
+Matrix Multiply 256x256                0.0408
+Prime Sieve                            0.0696
+-------------------------------------------------------------
+TOTAL                                  2.5867
 =============================================================
 ```
 
