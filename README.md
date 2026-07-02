@@ -1,12 +1,12 @@
 # Scala HPC Benchmark
 
 A single-file Scala benchmark suite for evaluating CPU, memory, and compute
-performance on HPC clusters. Developed at the
+performance on HPC clusters. Developed by Biomedical Applications Team at the
 [Pittsburgh Supercomputing Center](https://www.psc.edu).
 
 ## Requirements
 
-- Scala 2.x (loaded via Environment Modules on PSC systems)
+- Scala 2.x (loaded via Environment Modules on HPC systems)
 - JVM with at least 24 GB of heap available (`-Xmx24g`)
 
 ## Usage
