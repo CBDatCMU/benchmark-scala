@@ -1,0 +1,26 @@
+# sbt
+target/
+project/target/
+project/project/
+.bsp/
+.bloop/
+
+# Compiled class files
+*.class
+
+# Mill
+out/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+.metals/
+.ammonite/
+metals.sbt
+
+# OS
+.DS_Store
+
+# Logs
+*.log
