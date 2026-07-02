@@ -1,4 +1,4 @@
-# Scala HPC Benchmark
+# Scala Benchmark
 
 A single-file Scala benchmark suite for evaluating CPU, memory, and compute
 performance on HPC clusters. Developed by Biomedical Applications Team at the
