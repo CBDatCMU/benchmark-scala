@@ -42,6 +42,8 @@ scala -J-Xmx24g ScalaBenchmark <N>
 
 ## Results
 
+### lanec2.compbio.cs.cmu.edu
+
 ```
 ====================================================================
               Scala HPC Benchmark v1.0.0
@@ -72,6 +74,42 @@ Matrix Multiply 256x256                0.0408
 Prime Sieve                            0.0696
 -------------------------------------------------------------
 TOTAL                                  2.5867
+=============================================================
+```
+
+### bridges2.psc.edu
+
+```
+
+====================================================================
+              Scala HPC Benchmark v1.0.0
+              Pittsburgh Supercomputing Center
+====================================================================
+Hostname             : r045.ib.bridges2.psc.edu
+CPU                  : AMD EPYC 7742 64-Core Processor
+Memory               : 251.6 GB
+Logical CPUs         : 8
+Java                 : 21.0.4
+Scala                : 2.13.16
+OS                   : Linux
+Architecture         : amd64
+Array Size           : 10,000,000
+====================================================================
+
+===================== Benchmark Results =====================
+Benchmark                             Seconds
+-------------------------------------------------------------
+Allocate Random Array                  0.1580
+Sum Array                              0.0672
+Map sqrt                               0.0300
+Sort Array                             1.1958
+Monte Carlo Pi                         0.2212
+STREAM Copy                            0.0472
+STREAM Triad                           0.2053
+Matrix Multiply 256x256                0.0406
+Prime Sieve                            0.0771
+-------------------------------------------------------------
+TOTAL                                  2.0423
 =============================================================
 ```
 
